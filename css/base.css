@@ -1,0 +1,11 @@
+@charset "iso-8859-2";
+/* CSS Document */
+/*
+base.css - SSP- 1.0.0
+Determina valores predeterminados o por default.
+Copyright 2014 UIBASOFT! Inc. All rights reserved.
+*/
+body {
+    font: 13px/1.5 Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;
+    background: #F2F2F2;
+}

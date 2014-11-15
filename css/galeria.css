@@ -1,0 +1,14 @@
+@charset "iso-8859-2";
+/* CSS Document */
+/*
+    galeria.css - SSP- 1.0.0
+    Aplica estilo para la pagina galeria.
+    Copyright 2014 UIBASOFT! Inc. All rights reserved.
+*/
+#page-galeria{
+background: #565656;
+}
+.page-galeria-informacion{
+    margin-bottom:10px;
+    margin-top:10px;
+}

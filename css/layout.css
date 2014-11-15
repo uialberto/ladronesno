@@ -1,0 +1,221 @@
+@charset "iso-8859-2";
+/* CSS Document */
+/*
+layout.css - SSP- 1.0.0
+Determina la estructura de dimensionamiento.
+Copyright 2014 UIBASOFT! Inc. All rights reserved.
+*/
+.enlace-sin-text-decoration{
+    text-decoration:none;
+}
+#encabezado{
+    width:100%;
+    height: 190px;
+    position:relative;
+    top:0;
+    left:0;
+     border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#page-home-slider-container{
+/*    width: 900px;*/
+    width: 100%;
+}
+.row-info-user-ladronesno {
+    padding-top: 5px;
+    text-align: left;
+    height: 30px;
+}
+/* Iconos de Redes Sociales */
+.row-info-user-social-icon
+{
+    padding-top: 5px;
+    height: 35px;
+    float:right;
+        
+}
+ul#social {
+    width: 90px; 
+    padding:0px ;
+    height: 30px;
+}
+ul#social li { 
+    list-style-type: none; 
+    margin : 0px; 
+    padding: 0px; 
+    float: left; 
+} 
+#social li a{ 
+    background: url(../img/sprite-sociales-ladronesno.png) no-repeat 0 0; 
+    margin: 0px; 
+    padding: 0px; 
+    display: block; 
+    width: 30px; /*El ancho del bloque con el icono*/ 
+    height: 30px; /*El alto del bloque con el icono*/ 
+} 
+#social li a.facebook { 
+    background-position: 0px 0; /*la posición del icono de Facebook*/ 
+} 
+#social li a.twitter{ 
+    background-position: -30px 0; /*la posición del icono de Twitter*/ 
+} 
+#social li a.gplus { 
+    background-position: -60px 0; /*la posición del icono de Google+*/ 
+} 
+#social li a.facebook:hover { 
+    background-position: 0px -30px; /*la posición del icono de facebook del efecto hover*/ 
+} 
+#social li a.twitter:hover{ 
+    background-position: -30px -30px; /*la posición del icono de Twitter del efecto hover*/ 
+} 
+#social li a.gplus:hover { 
+    background-position: -60px -30px; /*la posición del icono de Google+ del efecto hover*/ 
+} 
+/* Iconos de Redes Sociales */
+.logo-ladronesno{
+    float: left;
+    display: inline;
+    width: 100%;
+}
+h1#logo-ladronesno {
+    margin: 30px 0 0 0;
+    height: 80px;
+    text-align: left;
+    outline: none;
+    width: 100%;
+    background: white;
+}
+.banner-informacion{
+    height: 80px;
+}
+.banner-informacion-direccion{
+    padding-top: 20px;
+    text-align: right;
+}
+
+/**************************************************************************************************/
+/* Menu Principal */
+#menu-principal{
+    font-size: 12px;
+    text-align: left;
+    height: 41px;
+    line-height: 41px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+#menu-principal-contenido{
+    font-size: 12px;
+    text-align: left;
+    height: 41px;
+    line-height: 41px;
+    list-style:none;	
+}
+.menu-principal-container{
+	/*background: url("../img/bgmenusub.jpg") #fff500 repeat-x 0 0;*/
+    height:41px;
+}
+ul#menu a:hover, ul#menu ul, ul#menu li:hover{
+    background:#fff500;
+    color:#414141;
+} 
+.menu-principal-container ul{
+    list-style:none;	
+    margin:0;
+    padding:0;
+    z-index:99;
+}
+ul#menu li{
+    float:left;
+    position:relative;
+    margin-right:10px;
+    color:#A68900;
+}
+ul#menu a{
+    text-decoration:none;
+    padding:0px 10px;
+    display:block;
+    font-weight:bold;
+    color:#414141;
+}
+ul#menu ul{
+    position:absolute;
+    left:0;
+    display:none;    
+}
+ul#menu li:hover ul{
+	display:block;
+}
+ul#menu li:hover ul li{
+	margin:0;
+}
+ul#menu li:hover ul li a{
+	width:160px;
+	height:42px;
+	color:#414141;
+	}
+ul#menu li:hover ul a:hover{
+	background:#eee500;
+	color:#414141;
+}
+/**************************************************************************************************/
+#contenido{
+    clear: both;
+    font-size: 12px;
+    /*text-align: center;*/
+    height: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    -moz-border-radius-bottomleft: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+}
+#footer {
+    width:100%;
+    margin:auto;
+    font-size:11px;
+    padding-bottom:0px;
+/*    border-bottom-right-radius:5px; */
+     border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin: 10px auto auto;
+}
+.descripcion-footer {
+    clear: both;
+/*    width: 988px;*/
+/*    min-width: 988px;
+    max-width: 988px;*/
+    margin: 0 auto;
+    height: 80px;
+}
+#footer-descripcion {
+    clear: both;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 20px;
+}
+#breadcrumb {
+    text-align:left;
+    padding:5px;
+    margin-top:5px;
+    font-size:12px;
+    font-weight:bold;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+span#breadcrumb{
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 7px;
+}
+
+a#breadcrumb{
+    float: left;
+    margin-right: 7px;
+    font-size:12px;
+    font-weight:bold;
+    color:#f5f5f5;
+}

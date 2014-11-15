@@ -1,0 +1,215 @@
+@charset "iso-8859-2";
+/* CSS Document */
+/*
+    clientes.css - SSP- 1.0.0
+    Aplica estilo para la pagina clientes.
+    Copyright 2014 UIBASOFT! Inc. All rights reserved.
+*/
+
+
+
+/*************************** TODO PARA EL BOX4 *******************************/
+.box4:hover{
+border: 1px #33B0FB solid;
+
+} 
+
+.box4{
+    margin: 20px auto;
+    min-height: 350px;
+    text-align: center;
+    width: 250px;
+    padding: 10px;
+    position:relative;
+    background: -webkit-gradient(linear, 0% 20%, 0% 100%, from(#fff), to(#fff), color-stop(.2, #f2f2f2));
+    border: 1px solid #ccc;
+    -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.box4:before{
+    content: '';
+    width: 50px;
+    height: 50px;
+    top:0; right:0;
+    position:absolute;
+    z-index: -1;
+    -webkit-box-shadow: 10px -10px 8px rgba(0, 0, 0, 0.2);
+    -webkit-transform: rotate(2deg)
+                        translate(-14px,20px)
+                        skew(-20deg);
+}
+.box4:after{
+    content: '';
+    width: 50px;
+    height: 50px;
+    top:0; left:0;
+    position:absolute;
+    z-index:-1;
+    display: inline-block;
+    -webkit-box-shadow: -10px -10px 10px rgba(0, 0, 0, 0.2);
+    -webkit-transform: rotate(2deg)
+                        translate(12px,25px)
+                           skew(20deg);
+}
+
+.shr_box4{
+    width: 100px;
+    height: 100px;
+    bottom:0; right:0;
+    position:absolute;
+    z-index: -1;
+    -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    -webkit-transform: rotate(0deg)
+    translate(-20px,-15px)
+                       skew(20deg);
+}
+.shl_box4{
+    content: '';
+    width: 100px;
+    height: 100px;
+    bottom:0; left:0;
+    position:absolute;
+    z-index: -1;
+    -webkit-box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.2);
+    -webkit-transform: rotate(0deg)
+    translate(20px,-15px)
+                       skew(-20deg);
+}
+
+.box4 img {
+    width: 50%;
+    margin-top: 20px;
+}
+
+.box4 a{
+    text-decoration: none;
+    color: #4A4A4A !important;
+}
+
+.box4 a:hover{
+    text-decoration: underline;
+    color: #6B6B6B !important ;
+}
+
+.box-text{ 
+    margin-top: 15px;
+    text-align: left;
+    font-size: 12px;
+    color: #666666;
+}
+
+.box-header-tittle{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 5px; 
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    color: #666666;
+}
+
+/* PARA EL CASO 2 DEL BOX */
+/*
+.horiz-flag {
+    -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.35);
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #9FBFDC), color-stop(100%, #3C74A6));
+    background-image: -webkit-linear-gradient(#9FBFDC, #3C74A6);
+    background-image: -moz-linear-gradient(#9FBFDC, #3C74A6);
+    background-image: -o-linear-gradient(#9FBFDC, #3C74A6);
+    background-image: -ms-linear-gradient(#9FBFDC, #3C74A6);
+    background-image: linear-gradient(#9FBFDC, #3C74A6);
+    display: -moz-inline-box;
+    -moz-box-orient: vertical;
+    display: inline-block;
+    vertical-align: middle;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    padding-right: 40px;
+    left: -2px;
+    padding-left: 10px;
+    top: 15px;
+    color: white;
+}
+
+.horiz-flag:before {
+    content: '';
+    display: block;
+    height: 0;
+    border-style: solid;
+    border-width: 20px;
+    border-color: transparent;
+    border-right-color: #EBEBEB;
+    position: absolute;
+    right: -1px;
+    top: 0;
+}
+
+*/
+
+
+.vert-flag {
+    -webkit-box-shadow: 1px 0 1px 
+    rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 1px 0 1px rgba(0, 0, 0, 0.35);
+    box-shadow: 1px 0 1px 
+    rgba(0, 0, 0, 0.35);
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #E72929), color-stop(100%, #FF9900));
+    background-image: -webkit-linear-gradient(#E72929, #FF9900);
+    background-image: -moz-linear-gradient(#E72929, #FF9900);
+    background-image: -o-linear-gradient(    #E72929, #FF9900);
+    background-image: -ms-linear-gradient(#E72929, #FF9900);
+    background-image: linear-gradient(#E72929, #FF9900);
+    display: -moz-inline-box;
+    -moz-box-orient: vertical;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    width: 50px;
+    position: absolute;
+    padding-bottom: 35px;
+    top: -2px;
+    padding-top: 10px;
+    left: 10px;
+    color: white;
+}
+
+.vert-flag:before {
+    content: '';
+    display: block;
+    border-style: solid;
+    border-width: 25px;
+    border-color: transparent;
+    left: 0;
+    border-bottom-color: #EBEBEB;
+    position: absolute;
+    bottom: -1px;
+}
+
+/*************************** TODO PARA EL BOX4 *******************************/
+
+
+#page-clientes{
+    background: #fff;
+}
+.page-clientes-informacion{
+    margin-bottom:10px;
+    margin-top:10px;
+}
+.page-clientes-informacion-enlace-contacto{
+    color:#FF3300;
+    font-weight:bold;
+    font-size:13px;
+    outline: none;
+    text-decoration: none;
+}
+
+.page-nuestros-clientes-logos {
+    text-align: center;
+    padding-top: 5px;
+    width: 100%;
+}
+.page-clientes-logos-img{
+    width: 900px;
+}

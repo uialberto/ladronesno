@@ -1,0 +1,242 @@
+@charset "iso-8859-2";
+/* CSS Document */
+/*
+color.css - SSP- 1.0.0
+Determina los colores para cada seccion css.
+Copyright 2014 UIBASOFT! Inc. All rights reserved.
+*/
+#encabezado{    
+/*    background: url(../img/bg-top-default.jpg) repeat scroll center top rgba(0, 0, 0, 0);    */
+    background: url(../img/bg-top.jpg) #303030 repeat-x center;
+}
+#encabezado .encabezado-niveles{
+    background: url("../img/bg-nivel.png") repeat scroll center top rgba(0, 0, 0, 0);
+    height: 100%;
+    color:#B6BFC9;
+    font-size: 12px;
+}
+.row-info-user-ladronesno-titulo{
+    color:#fff500;
+    font-weight: bold;
+}
+.banner-informacion{
+/*    background: white;*/
+}
+h1#logo-ladronesno {
+/*    background: transparent url('../img/logo-ladronesno-pequenio.png') no-repeat 0 0;*/
+    background: transparent url('../img/logo-ladronesno.png') no-repeat 0 0;
+        background-size: 100% 70px;
+}
+.banner-informacion-direccion-phone{
+    color: #DCE0E4;
+    font-size: 14px;
+    font-weight: bold;
+}
+.banner-informacion-direccion-trabajo
+{
+    color: #B6BFC9;
+    font-size: 12px;
+}
+.small {
+    font-size: 85%;
+}
+strong {
+    font-weight: bold;
+}
+.mailto {
+    color: #fff500;
+}
+#menu-principal{
+    background:#fff500;
+    color: #272727;
+}
+#menu-principal-contenido{
+    background:#fff500;
+    color: #272727;
+}
+.menu-principal-container{
+    background:#fff500;
+    color: #272727;
+}
+#contenido{
+    background:#fff;
+}
+#footer{
+    color: #b6bfc9;
+    background: #232323;
+}
+
+#footer-descripcion{
+    color:#666;
+    font-size: 10px;
+}
+#footer-descripcion:hover{
+    color:#777;
+    font-size: 10px;
+}
+#breadcrumb
+{
+    color:#666666;
+    background:#f5f5f5;
+}
+.link-linea{
+    color: #3399ff;
+}
+
+.titulo-page-informacion{
+    color: #666666; 
+    font-weight: bold;
+    line-height: 1.25;
+}
+.texto-parrafo {
+    font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: #555;
+    text-align: justify;
+}
+.titulo-page-contenido {    
+    color: #666;        
+    font-weight: bold; 
+    line-height: 1.25; 
+    text-align: left;
+}
+.titulo-page-cotenido-box{
+    color: #666;        
+    font-weight: bold; 
+    line-height: 1.25; 
+    text-align: center;
+}
+.img-border-padding{
+    padding: 5px;    
+}
+.img-margin-content{
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.box-mensaje{
+    font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    color: #555;
+    text-align: left;
+}
+
+.text-center{
+    text-align: center !important;
+}
+
+.page-informacion-enlace-contacto{
+    color:#FF3300;
+    font-weight:bold;
+    font-size:14px;
+    outline: none;
+    text-decoration: none;
+}
+
+
+.caracteristicas-lista {
+    
+    list-style-position: outside;
+    list-style-image: none;
+    line-height: 18px;
+    color: #555;
+}
+
+.caracteristicas-lista li {
+    line-height: 18px;
+    color: #555;
+}
+
+.list-dis {
+    list-style-type: disc;  
+}
+
+.list-square {
+    list-style-type: square;  
+}
+
+.list-space-vertical li {
+padding-top: 10px;
+}
+
+.img-parrafo{
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline;
+}
+.img-parrafo-align-left{
+    float: left;
+}
+
+.img-parrafo-align-rigth{
+    float: right;
+}
+
+table.tabla-one{
+    width: 100%;
+    text-align: center;
+}
+
+table.tabla-one {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 0px;
+	border-color: #666666;
+	border-collapse: collapse;
+}
+table.tabla-one th {
+	border-width: 0px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #F5F5F5;
+}
+table.tabla-one td {
+	border-width: 0px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;        
+}
+
+div.centerTabla{
+    text-align: center;
+}
+
+div.centerTabla table {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box-accesorios{
+/*    margin: 20px auto;*/
+    min-height: 200px;
+    text-align: center;   
+    position:relative;
+    background: -webkit-gradient(linear, 0% 20%, 0% 100%, from(#fff), to(#fff), color-stop(.2, #f2f2f2));
+    border: 1px solid #fff;
+    -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+.box-accesorios:hover{
+    border: 1px #33B0FB solid;
+}
+.acc-descripcion{
+    font-family: verdana,arial,sans-serif;
+    font-size:11px;
+    color:#AF3737;    
+}
+
+.text-phone-style-skype{
+    font: 13px/1.5 Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color:#5EB6E5;    
+}
+
+.text-phone-cel{        
+    color: #fff500;
+    font-size: 14px;
+}

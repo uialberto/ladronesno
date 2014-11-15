@@ -1,0 +1,31 @@
+@charset "iso-8859-2";
+/* CSS Document */
+/*
+    home.css - SSP- 1.0.0
+    Aplica estilo para la pagina home (principal)
+    Copyright 2014 UIBASOFT! Inc. All rights reserved.
+*/
+#page-home{
+    background: #fff;
+    margin-left: 0;
+}
+#page-home-fb-like{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    z-index: 999;
+}
+#page-home-slider-container {    
+    padding: 5px; 
+/*    width: 900px; */
+    width: 95%; 
+    border: 0px #FFF solid;
+}
+
+.page-home-logos-proveedores {
+    text-align: center;
+    padding-top: 5px;
+    width: 100%;
+}
+.page-home-logos-proveedores-img{
+    width: 100%;
+}
